@@ -1,0 +1,199 @@
+insert into product (category,description,product_image,product_name) values 
+('Veg','Classic delight with 50% real mozzarella cheese'
+,'https://images.dominos.co.in/new_margherita_2502.jpg','Margherita');
+
+insert into product (category,description,product_image,product_name) values 
+('Veg','A classic delight loaded with extra 50% real mozzarella cheese'
+,'https://images.dominos.co.in/new_margherita_2502.jpg','Double Cheese Margherita');
+
+insert into product (category,description,product_image,product_name) values 
+('Veg','elightful combination of onion, capsicum, tomato & grilled mushroom'
+,'https://images.dominos.co.in/farmhouse.png','Farmhouse');
+
+insert into product (category,description,product_image,product_name) values 
+('Veg','Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika'
+,'https://images.dominos.co.in/new_peppy_paneer.jpg','Peppy Paneer');
+
+insert into product (category,description,product_image,product_name) values 
+('Veg','Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno'
+,'https://images.dominos.co.in/new_mexican_green_wave.jpg','Mexican Green Wave');
+
+insert into product (category,description,product_image,product_name) values 
+('Veg','The awesome foursome! Golden corn, black olives, capsicum, red paprika'
+,'https://images.dominos.co.in/new_veggie_paradise.jpg','Veggie Paradise');
+
+
+
+
+insert into product (category,description,product_image,product_name) values 
+('NonVeg','Delightful combination of our spicy duo- Pepper Barbecue Chicken and Peri Peri Chicken for Chicken Lovers.'
+,'https://images.dominos.co.in/PIZ5102_1.jpg','Spiced Double Chicken');
+
+insert into product (category,description,product_image,product_name) values 
+('NonVeg','oaded to the Max with Chicken Tikka, Chicken Keema, Chicken Sausage and a double dose of grilled'
+,'https://images.dominos.co.in/PIZ5103_1.jpg','Chicken Maximus');
+
+insert into product (category,description,product_image,product_name) values 
+('NonVeg','Loaded with double pepper barbecue chicken, peri-peri chicken, chicken tikka & grilled chicken'
+,'https://images.dominos.co.in/new_chicken_dominator.jpg','Chicken Dominator');
+
+insert into product (category,description,product_image,product_name) values 
+('NonVeg','Double pepper barbecue chicken, golden corn and extra cheese, true delight'
+,'https://images.dominos.co.in/new_chicken_golden_delight.jpg','Chicken Golden Delight');
+
+insert into product (category,description,product_image,product_name) values 
+('NonVeg','A classic American taste! Relish the delectable flavor of Chicken Pepperoni, topped with extra cheese'
+,'https://images.dominos.co.in/cheesepepperoni.png','Chicken Pepperoni');
+
+insert into product (category,description,product_image,product_name) values 
+('NonVeg','Grilled chicken rashers, peri-peri chicken, onion & capsicum, a complete fiesta'
+,'https://images.dominos.co.in/new_chicken_fiesta.jpg','Chicken Fiesta');
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,1,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,1,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',70,1,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',230,1,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',250,1,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',230,1,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',220,1,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',200,1,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',300,1,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',340,1,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',35,1,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',400,1,'Large');
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',80,2,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',100,2,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',80,2,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',220,2,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',235,2,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',210,2,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',225,2,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',90,2,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',35,2,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',325,2,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',331,2,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',420,2,'Large');
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',80,3,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',100,3,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',80,3,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',220,3,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',235,2,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',210,3,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',225,3,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',90,3,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',35,3,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',325,3,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',331,3,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',420,3,'Large');
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',80,4,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',100,4,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',80,4,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',220,4,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',235,4,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',210,4,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',225,4,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',90,4,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',35,4,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',325,4,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',331,4,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',420,4,'Large');
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,5,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,5,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',70,5,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',230,5,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',250,5,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',230,5,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',220,5,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',200,5,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',300,5,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',340,5,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',35,5,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',400,5,'Large');
+
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,6,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,6,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',70,6,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',230,6,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',250,6,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',230,6,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',220,6,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',200,6,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',300,6,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',340,6,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',35,6,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',400,6,'Large');
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,7,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,7,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',70,7,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',230,7,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',250,7,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',230,7,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',220,7,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',200,7,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',300,7,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',340,7,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',35,7,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',400,7,'Large');
+
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,8,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,8,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',70,8,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',230,8,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',250,8,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',230,8,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',220,8,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',200,8,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',300,8,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',340,8,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',35,8,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',400,8,'Large');
+
+
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,9,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,9,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',70,9,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',230,9,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',250,9,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',230,9,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',220,9,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',200,9,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',300,9,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',340,9,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',35,9,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',400,9,'Large');
+
+
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,10,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,10,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',70,10,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',230,10,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',250,10,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',230,10,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',220,10,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',200,10,'Medium');
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',300,10,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',340,10,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Classic Hand Tossed',35,10,'Large');
+insert into sub_category (crust_type,price,product_id,size) values ('Cheese Burst',400,10,'Large');
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,11,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,11,'Regular');
+
+insert into sub_category (crust_type,price,product_id,size) values ('New Hand Tossed',70,12,'Regular');
+insert into sub_category (crust_type,price,product_id,size) values ('Wheat Crust',90,12,'Regular');
